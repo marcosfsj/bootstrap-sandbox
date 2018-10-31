@@ -148,37 +148,67 @@
     <br>
 
     <!-- MY MODAL TRIGGER -->
-    <button class="btn btn-dark" data-toggle="modal" data-target="#myModalTest">Launch My Modal</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Launch demo modal
+    </button>
 
-    <!-- LOGIN MODAL -->
-    <div class="modal" id="myModalTest">
-      <div class="modal-dialog modal-dialog-centered">
+    <!-- MY MODAL -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-body m-0 p-0">
-            <div class="row">
-              <div class="col">
-                <img src="./img/01.jpg" class="img img-responsive img-fluid">
-              </div>
-              <div class="col-9">
-                <form>
-                  <div class="form-group">
-                    <label for="userName">Username</label>
-                    <input type="text" placeholder="Username" class="form-control">
+            <header id="main-header">
+              <div class="row no-gutters">
+                <div class="col-5">
+                  <img src="img/person1.jpg" alt="">
+                </div>
+                <div class="col-7">
+                  <div class="container my-3 mx-3">
+                    <div class="row">
+                      <div>
+                        <p>Investiments Require Reflection</p>
+                      </div>
+                      <div class="justify-self-end">
+                        <p>X</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <p>Let's keep in touch so we can send you more information.</p>
+                    </div>
+                    <div class="row">
+                      <form>
+                        <div class="form-group">
+                          <label for="field1">Field 1</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="field1">Field 1</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="field1">Field 1</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="field1">Field 1</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="field1">Field 1</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <button class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="text" placeholder="Password" class="form-control">
-                  </div>
-                  <button class="btn btn-primary" type="button">Submit</button>
-                </form>
+                </div>
               </div>
-            </div>
+            </header>
           </div>
         </div>
       </div>
     </div>
-
-
 
   </div>
 
@@ -190,6 +220,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
